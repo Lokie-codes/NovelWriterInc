@@ -7,6 +7,7 @@ class CustomTasks:
     def __init__(self):
         self.__tip_section = "If you do your BEST WORK, I'll give you a $10,000 commission!"
 
+    # TODO modify so that in the output the chapters are also generated
     def write_shallow(self, agent, storyline):
         return Task(
             description=dedent(
